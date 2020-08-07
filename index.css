@@ -1,0 +1,65 @@
+body{  
+    background-image: url(img.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    color: indigo;
+
+    }
+    #rou{
+        font-size: 30px;
+        font-weight: 800px;
+        font-family: cursive;
+        color: indigo;
+
+    }
+
+h3{
+     font-size: 30px ;
+     font-weight: 400px;
+     font-family: cursive;
+     color: gold;
+     text-align: center;
+     }
+ h4{
+     font-size: 30PX;
+     font-weight: 400; 
+     font-family: cursive;  
+     text-align: center;  
+     color: black;
+    }
+     #jeu{
+         margin: 0;
+         padding: 0;
+         margin-left: 0px;
+         background-color: gold;
+         border-top-left-radius: 10px;
+         border-top-right-radius: 10px;
+ list-style: none;
+ display: inline-block;}
+
+    #jeu a {
+        text-decoration: indigo;
+     position: relative;
+     color: indigo;
+     font-size: 40PX;
+     font-weight: 800;
+     font-family: sans-serif;
+     overflow: hidden;
+     text-transform: uppercase;
+     display:block;
+ }
+ #jeu a:before{
+     content:'';
+   width: 70px;
+   position: absolute;
+   border-bottom:indigo;
+   right: 400px;
+   transition: 0.9s all;
+
+ }
+ #jeu a:hover:before {
+     right: 0;
+ }
+ #elements{font-size: 20; font-weight: 200;}
+          
+    
